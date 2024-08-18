@@ -2,13 +2,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import AuthContainer from '../components/AuthContainer';
+import Dashboard from '../components/Dashboard';
 import { Container, TextField, Button, Typography, Box, Link } from '@mui/material';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-          <div className={styles.description}>
-              <Box
+    <main>
+          <div>
+              {/*    <Box
                   sx={{ display: 'inline-flex'}}
               >
               <Image
@@ -23,7 +24,8 @@ export default function Home() {
                   Welcome to the Food App
                   </Typography>
                   </Box>
-              <AuthContainer/>
+              <AuthContainer/>  */}
+              <Dashboard/>
         
       </div>
     </main>
