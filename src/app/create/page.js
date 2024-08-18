@@ -45,7 +45,6 @@ export default function CreateFunction() {
   const [files, setFiles] = useState([]);
   const [loading, setLoading] = useState(false);
   const [OpenAiKey, setOpenAiKey] = useState('');
-  const token = localStorage.getItem('token');
 
   // --------------------------------------------------------
   const testOpenAIKey = async (apiKey) => {
